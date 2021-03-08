@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+    <style>
+      body {
+        background: rgba(0, 0, 0, 0.03);
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      p,
+      button,
+      ul {
+        font-family: monarcha;
+      }
+
+      h1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        opacity: 70%;
+        padding: 30px;
+        font-size: 50px;
+        font-weight: 200px;
+      }
+
+      h2 {
+        margin: 30px auto;
+        text-align: center;
+        opacity: 70%;
+      }
+
+      h3,
+      h4 {
+        opacity: 70%;
+      }
+      p {
+        line-height: 28px;
+        opacity: 70%;
+      }
+
+      h3,
+      p {
+        margin: 50px auto;
+        opacity: 70%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      a {
+        font-size: 16px;
+        color: rgb(89, 155, 183);
+        text-decoration: none;
+        font-weight: bold;
+        opacity: 70%;
+      }
+
+      img {
+        max-width: 90%;
+        display: block;
+        margin: 10px auto;
+        opacity: 90%;
+        border-radius: 2px;
+      }
+
+      button {
+        display: block;
+        margin: 10px;
+        background-color: transparent;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      hr {
+        margin: 40px auto;
+        opacity: 70%;
+        display: block;
+      }
+
+      ol {
+        line-height: 28px;
+        margin: auto 0;
+        padding: auto 0;
+        font-size: 16px;
+        opacity: 70%;
+        font-family: monarcha;
+      }
+
+      em {
+        font-family: monarcha;
+        font-size: smaller;
+        opacity: 70%;
+        margin: 50px auto;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .column {
+        flex: 50%;
+        padding: 5px;
+      }
+
+      div.image-gallery1 {
+        display: flex;
+        flex: 80%;
+        padding: 5px;
+      }
+
+      div.image-gallery2 {
+        align-content: center;
+        display: flex;
+        flex: 80%;
+        padding: 5px;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background-color: rgba(89, 155, 183, 0.5);
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+        transition: 200ms ease-in-out;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+
+      .denise {
+        font-size: 13px;
+        color: #5598a5;
+        margin: 10px auto;
+      }
+
+      .readmore,
+      a {
+        font-size: 13px;
+        margin: 10px auto;
+        text-align: center;
+      }
+
+      a :hover {
+        text-decoration: underline;
+        color: #41c7d0;
+      }
+
+      .learnMoreHereLink:hover {
+        color: #003e5b;
+        transition: 200ms ease-in-out;
+      }
+
+      .pageCode {
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .bottom-banner {
+        padding: 15px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+        <button onclick="goBack()">Go Back</button>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    <img src="2021/portfolio/portfolio banner.png" alt="banner">
+    <p><strong>Layout </strong>
+            <br />
+            <br />
+            Part of my role at twentytwentyone has been to edit and layout contracts, journal and exhibition pages. Below are examples.</p>
+<div class="row">
+  <div class="column">
+    <img src="2021/portfolio/twentytwentyone/layout_radar_station.jpg" alt="Radar station layout" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="2021/portfolio/twentytwentyone/layout_edit_19.png" alt="edit 19 layout" style="width:100%">
+  </div>
+
+</div>
+        <button onclick="goBack()">Go Back</button>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    </p>
+      <p class="pageCode">
+        This page was coded by <strong>Ellie Bleeker</strong>
+      </p>
+  </body>
+</html>

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX / UI</title>
+    <style>
+      body {
+        background: rgba(0, 0, 0, 0.03);
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      p,
+      button,
+      ul {
+        font-family: monarcha;
+      }
+
+      h1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+        opacity: 70%;
+        padding: 30px;
+        font-size: 50px;
+        font-weight: 200px;
+      }
+
+      h2 {
+        margin: 30px auto;
+        text-align: center;
+        opacity: 70%;
+      }
+
+      p {
+        margin: 50px auto;
+        opacity: 70%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+
+      a {
+        font-size: 16px;
+        color: rgb(89, 155, 183);
+        text-decoration: none;
+        font-weight: bold;
+        opacity: 70%;
+      }
+
+      img {
+        max-width: 90%;
+        display: block;
+        margin: 10px auto;
+        opacity: 90%;
+        border-radius: 2px;
+      }
+
+      button {
+        display: block;
+        margin: 10px;
+        background-color: transparent;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      hr {
+        margin: 40px auto;
+        opacity: 70%;
+        display: block;
+      }
+
+      ol {
+        line-height: 28px;
+        margin: auto 0;
+        padding: auto 0;
+        font-size: 16px;
+        opacity: 70%;
+        font-family: monarcha;
+      }
+
+      em {
+        font-family: monarcha;
+        font-size: smaller;
+        opacity: 70%;
+        margin: 50px auto;
+      }
+
+      .row {
+        display: flex;
+      }
+
+      .column {
+        flex: 50%;
+        padding: 5px;
+      }
+
+      div.image-gallery1 {
+        display: flex;
+        flex: 80%;
+        padding: 5px;
+      }
+
+      div.image-gallery2 {
+        align-content: center;
+        display: flex;
+        flex: 80%;
+        padding: 5px;
+      }
+
+      button:hover {
+        cursor: pointer;
+        background-color: rgba(89, 155, 183, 0.5);
+        box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+        transition: 200ms ease-in-out;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 60px;
+      }
+
+      .denise {
+        font-size: 13px;
+        color: #5598a5;
+        margin: 10px auto;
+      }
+
+      .readmore,
+      a {
+        font-size: 13px;
+        margin: 10px auto;
+        text-align: center;
+      }
+
+      a :hover {
+        text-decoration: underline;
+        color: #41c7d0;
+      }
+
+      .learnMoreHereLink:hover {
+        color: #003e5b;
+        transition: 200ms ease-in-out;
+      }
+
+      .pageCode {
+        text-align: center;
+        font-size: 12px;
+      }
+
+      .bottom-banner {
+        padding: 15px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    <img src="2021/portfolio/portfolio banner.png" alt="banner" />
+
+    <p><strong>UX / UI</strong></p>
+
+    <p>
+      <strong>SIML</strong>
+      <br />
+      <br />
+      SIML is a personal project I am currently working on with a friend. The
+      idea is to create an app to choose restaurants/bars/events with a group of
+      friends. The app will have similar usability as Tinder, in that you will
+      be able to swipe yes/no on restaurants etc.
+    </p>
+    <div class="imagesSIML">
+      <img
+        src="2021/portfolio/SIML/HTML/SIML_font_colour_logo.png"
+        width="70%"
+        margin="0, 0, 0, 0"
+      />
+      <p>
+        <em
+          >Initial font selection, colour scheme suggestions and logo ideas.</em
+        >
+      </p>
+
+      <div class="image-gallery1">
+        <img src="2021/portfolio/SIML/pngs/sign up pages.png" width="50%" />
+        <img
+          src="2021/portfolio/SIML/pngs/LOG IN PAGES_PROFILE.png"
+          width="50%"
+        />
+        <div class="clear"></div>
+      </div>
+      <div class="image-gallery2">
+        <img
+          src="2021/portfolio/SIML/pngs/group page_history page.png"
+          width="50%"
+        />
+        <img
+          src="2021/portfolio/SIML/pngs/SIML-CHAT FEATURE - 1.png"
+          width="50%"
+        />
+        <div class="clear"></div>
+      </div>
+      <p>
+        <em
+          >Rough idea of basic pages (above). Using Sketch, I have started to
+          flesh out the flow of the app (sample below).</em
+        >
+      </p>
+      <img src="2021/portfolio/SIML/pngs/user flow-sketch.png" />
+    </div>
+    <hr />
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+    <hr />
+
+    <p>
+      <strong>SheCodes</strong>
+      <br />
+      <br />
+      I completed a SheCodes beginners coding course in October 2020. I learned
+      the basics of HTML, CSS and JavaScript. I had weekly homework assignments
+      which all led to the final assignment.
+      <br />
+      <br />
+      <em
+        >“create a landing page from scratch about something you’re passionate
+        about. The page has to include a user interaction and the following
+        HTML, CSS and JavaScript elements. HTML requirements: h1, h2, p, div,
+        span, strong, em, br, hr, a, img, button CSS requirements: margin,
+        padding, font-size, font-weight, color, background (with
+        linear-gradient), line-height, box-shadow, border, transition JavaScript
+        requirements: let, if, else, alert, prompt, event”</em
+      >
+    </p>
+    <p>
+      You can see this page
+      <a
+        href="file:///Volumes/ELLIE%20B/SheCodes/Final%20Project%20EB.html"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><strong>here</strong></a
+      >
+      <button onclick="goBack()">Go Back</button>
+
+      <script>
+        function goBack() {
+          window.history.back();
+        }
+      </script>
+    </p>
+    <p class="pageCode">
+      This page was coded by <strong>Ellie Bleeker</strong>
+    </p>
+  </body>
+</html>
